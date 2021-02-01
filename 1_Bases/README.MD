@@ -1,4 +1,7 @@
 # Node, les bases
+> Compétences travaillées tout au long de ce cours :
+> Construire une application organisée en couches
+> Développer des composants d’accès aux données
 ## Prérequis
 Nous postulons que vous avez installé sur vos postes, une version 14 ou supérieure de NodeJS ainsi que NPM.     
 Pour vérifier la version de Node dans un terminal taper `node -v` ou `node --version`
@@ -45,7 +48,6 @@ Le débogueur est lancé et affiche le code source en ayant mis le programme en 
 Vous pouvez-placer des points d'arrêt, surveiller des variables, ... je vous laisse fouiller.  
  
 
-
 ## 1. Utilisation des modules (Core) directement intégrés à Node
 
 L'ensemble des modules natifs composent l'[API](https://nodejs.org/api/) Node.     
@@ -66,11 +68,9 @@ Gérer une absence de prénom en retournant `Hello inconnu.e`
 
 Exemple:`node 1_hello.js Jean` affichera `Hello Jean`
 
-
 #### 1.3 Lire et afficher le contenu d'un fichier
 Dans le dossier resources ce trouve un fichier texte utf-8 [`data.fbn`](resources/data.fbn) vous devez afficher son contenu dans le terminal.     
 Toujours pas besoin de paquet externe utilisez juste le module `fs`.      
-
 
 #### 1.4 Ascii art en noir et blanc
 Un animal se cache dans le fichier [`graph.json`](resources/graph.json) du dossier ressources,
@@ -91,7 +91,7 @@ Affichons le contenu du tableau ligne par ligne
  *****
    *  
  ```
-Super, nous avons dessiné un plus en mode caratère.
+Super, nous avons dessiné un 'plus' en mode caratère.
 
 Maintenant créez le programme node pour afficher l'animal, chrono démarré !
 
