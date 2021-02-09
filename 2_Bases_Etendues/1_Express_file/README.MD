@@ -1,6 +1,7 @@
 # Node, les bases d'une application
 ## Prérequis
-Vous avez déjà fait l'exercice 1_Bases.  
+Vous avez déjà fait l'exercice 1_Bases. 
+ 
 ## Renvoyer une page Web  
 Plutôt que de renvoyer un message, utilisez la fonction 'sendfile()' pour renvoyer une page HTML complète (celle, mythique fournie dans le dossier joint).  
 ## Observer &...
