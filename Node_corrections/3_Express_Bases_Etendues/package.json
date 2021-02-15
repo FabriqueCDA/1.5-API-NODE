@@ -1,0 +1,18 @@
+{
+  "name": "baseexpress",
+  "version": "0.1.0",
+  "description": "Un premier serveur ExpressJS avec Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Fabrique Numérique (école Simplon PAU)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

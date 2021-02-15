@@ -1,0 +1,20 @@
+{
+  "name": "ws-serv",
+  "version": "0.0.2",
+  "description": "Serveur Websocket de démo",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "javacript"
+  ],
+  "author": "Arsen Kubatyan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
